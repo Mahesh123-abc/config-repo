@@ -1,0 +1,13 @@
+global:
+ message: welcome to customer service from Dev envoirnment!!
+   server:
+    port: 8082
+    message: Hello from Dev !
+datasource:
+url: jdbc:mysql://localhost:3306/customer_dev
+username: root
+password: Mahesh@1998
+jpa:
+hibernate: 
+ddl-auto: update
+show-sql: false
