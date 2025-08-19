@@ -1,0 +1,14 @@
+
+global:
+ message: welcome to customer service from Prod envoirnment!!
+   server:
+    port: 8083
+    message: Hello from Prod !
+datasource:
+url: jdbc:mysql://localhost:3306/customer_prod
+username: root
+password: Mahesh@1998
+jpa:
+hibernate: 
+ddl-auto: update
+show-sql: true
