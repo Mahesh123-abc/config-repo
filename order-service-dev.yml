@@ -3,7 +3,7 @@ message: welcome to order service dev envoirnment!
 server:
  port: 8084
   spring:
-  message:Hello from order Dev!
+  message: Hello from order Dev!
   datasource:
   url: jdbc:mysql://localhost:3306/order_dev
   username: root
